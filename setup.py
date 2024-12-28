@@ -1,17 +1,19 @@
 import setuptools
 
+# Read the contents of README.md to use as the long description
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-
+# Define the version of the package
 __version__ = "0.0.0"
 
+# Define the author and repository information
 REPO_NAME = "End-to-End-Wine-Quality-Prediction"
 AUTHOR_USER_NAME = "Krystalli0205"
 SRC_REPO = "wine_quality_prediction_project"
 AUTHOR_EMAIL = "krystalli0205@gmail.com"
 
-
+# Setup function to specify details about the package
 setuptools.setup(
     name=SRC_REPO,
     version=__version__,

@@ -11,4 +11,5 @@ joblib
 types-PyYAML
 Flask
 Flask-Cors
--e .
+-e . # used to install the project in "editable" or "development" mode, 
+    # meaning any changes made to the source code are immediately reflected without needing to reinstall the package.
