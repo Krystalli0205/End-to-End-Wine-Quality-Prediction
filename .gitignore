@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 artifacts/*
+# demo
+demo/mlproject_web_demo.mp4
 # C extensions
 *.so
 
